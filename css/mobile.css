@@ -1,0 +1,105 @@
+@media (max-width: 612px) {
+  body {
+    font-size: 18px;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 32px;
+  }
+  #about {
+    background: linear-gradient(
+      180deg,
+      rgba(247, 247, 247, 1) 50%,
+      rgba(240, 240, 240, 1) 50%
+    );
+  }
+  #about p,
+  #about li {
+    font-size: 16px;
+  }
+  section > .container {
+    max-width: 500;
+  }
+  /* banner */
+  #banner h1 {
+    font-size: 48px;
+  }
+  /* navbar */
+
+  #nav-bar .container {
+    flex-direction: column;
+    align-items: flex-start !important;
+    height: auto;
+    gap: 12px;
+  }
+  #nav-bar a {
+    border: none;
+    padding: unset;
+  }
+  #nav-bar .owner-info {
+    display: none;
+  }
+  /* about */
+  #about .about-container {
+    flex-direction: column;
+  }
+  #target,
+  #personal-info {
+    width: 100%;
+  }
+  #about ul {
+    padding: unset;
+  }
+
+  /* job-info */
+  #job-info .title {
+    gap: 12px;
+  }
+  #job-info .container {
+    grid-template-columns: 1fr;
+  }
+  #job-info .container .job-info-items {
+    font-size: 14px;
+  }
+  /* certificate */
+
+  #certificate .wrap {
+    grid-template-columns: 1fr;
+  }
+  #certificate .certificate-detail {
+    border-bottom: solid 1px rgb(236, 196, 120);
+    flex-direction: column;
+    gap: 15px;
+  }
+  #certificate .certificate-detail:last-child {
+    border: unset;
+  }
+  #certificate .certificate-detail:last-child::before {
+    display: none;
+  }
+  #certificate img {
+    width: 100%;
+  }
+  .certificate-detail ul li {
+    font-size: 16px;
+  }
+  .certificate-detail ul {
+    padding: unset;
+  }
+  .certificate-detail:nth-child(even)::before {
+    display: none;
+  }
+  /* project */
+  #project .wrap {
+    grid-template-columns: 1fr;
+  }
+  #footer p {
+    display: none;
+  }
+  #footer i {
+    font-size: 32px;
+  }
+  .wrap .project-detail {
+    font-size: 18px;
+  }
+}
